@@ -2,11 +2,16 @@
 <!-- source: https://gist.github.com/nraloux/bce10c4148380061781b928cdab9b193 -->
 <!-- I have added support for dark mode and improved UI -->
 
-<div class="h-full bg-gray-400 dark:bg-gray-900">
+<div class="h-full bg-gray-100 dark:bg-gray-900">
 	<!-- Container -->
 	<div class="mx-auto">
-		<div class="flex justify-center px-6 py-12">
+        <Link href="#" class="flex justify-center text-2xl font-semibold text-gray-900 dark:text-white py-6">
+            <img class="w-8 h-8 mr-2" src="{{ asset('logo/logo.png') }}" alt="logo">
+            e-abus
+        </Link>
+		<div class="flex justify-center px-6">
 			<!-- Row -->
+
 			<div class="w-full xl:w-3/4 lg:w-11/12 flex">
 				<!-- Col -->
 				<div class="w-full h-auto bg-gray-400 dark:bg-gray-800 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
