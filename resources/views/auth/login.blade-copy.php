@@ -1,5 +1,5 @@
-<x-guest-layout >
-    <x-auth-card >
+<x-guest-layout>
+    <x-auth-card>
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" />
 
@@ -11,9 +11,9 @@
 
             <div class="flex items-center justify-end">
                 @if (Route::has('password.request'))
-                    <Link class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('Forgot your password?') }}
-                    </Link>
+                <Link class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                {{ __('Forgot your password?') }}
+                </Link>
                 @endif
 
                 <x-splade-submit class="ml-3" :label="__('Log in')" />
@@ -41,11 +41,11 @@
                     <x-splade-input id="password" type="password" name="password" :label="__('Password')" required autocomplete="current-password" />
                     <div class="flex items-center justify-between">
                         <div class="flex items-start">
-                                <x-splade-checkbox id="remember_me" name="remember" :label="__('Ingat saya')" />
+                            <x-splade-checkbox id="remember_me" name="remember" :label="__('Ingat saya')" />
                         </div>
                         @if (Route::has('password.request'))
                         <Link class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500" href="{{ route('password.request') }}">
-                            {{ __('Lupa Password?') }}
+                        {{ __('Lupa Password?') }}
                         </Link>
                         @endif
 
@@ -53,10 +53,11 @@
                     <x-splade-submit class="w-full" :label="__('Log in')" />
                     {{-- <x-splade-submit class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" :label="__('Log in')" /> --}}
                     <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                        Belum Punya Akun? <Link href="{{ route('register') }}" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Daftar</Link>
+                        Belum Punya Akun?
+                        <Link href="{{ route('register') }}" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Daftar</Link>
                     </p>
                 </x-splade-form>
             </div>
         </div>
     </div>
-  </section>
+</section>
