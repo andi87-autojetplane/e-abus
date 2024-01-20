@@ -37,7 +37,7 @@
     </main>
 
 
-    <div class="sm:ml-64">
+    {{-- <div class="sm:ml-64">
 
 
         <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 mb-0">
@@ -69,7 +69,7 @@
 
 
 
-    </div>
+    </div> --}}
 
 
 </div>

@@ -15,7 +15,7 @@
 			<div class="w-full xl:w-3/4 lg:w-11/12 flex">
 				<!-- Col -->
 				<div class="w-full h-auto bg-gray-400 dark:bg-gray-800 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
-					style="background-image: url('{{ asset('img/young-handsome-physician-medical-robe-with-stethoscope.jpg') }}')"></div>
+					style="background-image: url('{{ asset('img/17545.jpg') }}')"></div>
 				<!-- Col -->
 				<div class="w-full lg:w-7/12 bg-white dark:bg-gray-700 p-5 rounded-lg lg:rounded-l-none">
 					<h3 class="py-2 text-2xl text-center text-gray-800 dark:text-white">Daftar Akun baru</h3>
