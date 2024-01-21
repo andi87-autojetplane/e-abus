@@ -14,7 +14,7 @@
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg>
                         </a>
-                        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Selamat Datang di Aplikasi e-abus</h1>
+                        <h1 class="mb-4 text-xl font-extrabold tracking-tight leading-none text-gray-900 md:text-2xl lg:text-4xl dark:text-white">Selamat Datang di Aplikasi e-abus</h1>
                         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Aplikasi Bantu Kesehatan</p>
                         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                             <Link href="" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -28,7 +28,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                    {{-- <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                         <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
                             <div class="flex flex-col items-center justify-center">
                                 <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
@@ -43,7 +43,7 @@
                                 <dd class="font-light text-gray-500 dark:text-gray-400">organizations</dd>
                             </div>
                         </dl>
-                    </div>
+                    </div> --}}
                 </section>
             </div>
 

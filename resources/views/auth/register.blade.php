@@ -25,10 +25,11 @@
                         class="w-full px-3 py-2 text-sm leading-tight text-gray-700 dark:text-white rounded  appearance-none focus:outline-none focus:shadow-outline"
                         required autofocus />
 
-                        <x-splade-input id="username" type="text" name="username" :label="__('Username')"
-                        placeholder="Masukkan username"
+
+                        <x-splade-input
                         class="w-full px-3 py-2 text-sm leading-tight text-gray-700 dark:text-white rounded  appearance-none focus:outline-none focus:shadow-outline"
-                        required />
+                        id="username" type="text" name="username" :label="__('Username')"
+                        placeholder="Masukkan username" required />
 
                         <x-splade-input id="email" type="email" name="email" :label="__('Email')"
                         placeholder="Masukkan email aktif anda"
