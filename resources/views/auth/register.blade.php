@@ -42,12 +42,12 @@
                                 class="w-full px-3 py-2 text-sm leading-tight text-gray-700 dark:text-white rounded  appearance-none focus:outline-none focus:shadow-outline"
                                 required autofocus />
 							</div>
-							<div class="md:ml-2">
+							{{-- <div class="md:ml-2">
                                 <x-splade-input id="nik" name="nik" :label="__('NIK')"
                                 placeholder="Masukkan NIK"
                                 class="w-full px-3 py-2 text-sm leading-tight text-gray-700 dark:text-white rounded  appearance-none focus:outline-none focus:shadow-outline"
                                 required />
-							</div>
+							</div> --}}
 						</div>
 						<div class="mb-4 md:flex md:justify-between">
 							<div class="mb-4 md:mr-2 md:mb-0">
