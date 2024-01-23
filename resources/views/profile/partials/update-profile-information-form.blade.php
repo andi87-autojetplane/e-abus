@@ -1,7 +1,7 @@
 <section>
     <header>
         <h2 class="text-lg font-medium text-gray-900">
-            {{ __('Profile Information') }}
+            {{ __('Profile') }}
         </h2>
 
         <p class="mt-1 text-sm text-gray-600">
@@ -10,7 +10,7 @@
     </header>
 
     <x-splade-form method="patch" :action="route('profile.update')" :default="$user" class="mt-6 space-y-6" preserve-scroll>
-        <x-splade-input id="nik" name="nik" type="text" :label="__('NIK')" required autofocus autocomplete="nik" />
+        <x-splade-input id="username" name="username" type="text" :label="__('Username')" required autofocus autocomplete="username" />
         <x-splade-input id="nomor_handphone" name="nomor_handphone" type="text" :label="__('Nomor Handphone')" required autofocus autocomplete="nomor_handphone" />
         <x-splade-input id="name" name="name" type="text" :label="__('Name')" required autofocus autocomplete="name" />
         <x-splade-input id="email" name="email" type="email" :label="__('Email')" required autocomplete="email" />
