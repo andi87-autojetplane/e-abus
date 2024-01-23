@@ -6,7 +6,6 @@
         <x-splade-submit />
     </x-splade-form>
 </x-splade-modal> --}}
-
 <x-splade-modal close-explicitly>
     <div class="relative p-4 w-full max-w-2xl max-h-full">
         <!-- Modal content -->
@@ -14,14 +13,14 @@
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                    Edit Role
+                    Edit Permission
                 </h3>
 
             </div>
             {{-- <h1 class="text-2xl font-semibold p-4">New Role</h1> --}}
-            <x-splade-form :default="$role" :action="route('admin.roles.update', $role)" method="PUT" class="p-4 bg-white rounded-md space-y-2">
+            <x-splade-form :default="$permission" :action="route('admin.permissions.update', $permission)" method="PUT" class="p-4 bg-white rounded-md space-y-2">
                     <x-splade-input name="name" label="Name" />
-                    <x-splade-select name="permissions[]" :options="$permissions" multiple relation choices />
+                    <x-splade-select name="roles[]" :options="$roles" multiple relation choices />
                     <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                         <x-splade-submit />
                         <button type="button" @click="modal.close"
@@ -31,3 +30,4 @@
         </div>
     </div>
 </x-splade-modal>
+

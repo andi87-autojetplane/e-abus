@@ -149,7 +149,13 @@
                                             <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Edit Profile</a>
                                         </x-splade-link>
                                         <li>
-                                            <x-splade-link method="post" href="{{ route('logout') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Log out</x-splade-link>
+                                            <x-splade-link method="post" href="{{ route('logout') }}"
+                                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
+                                                role="menuitem"
+                                                confirm="Konfirmasi Logout" confirm-text="Anda yakin mau keluar dari aplikasi?" confirm-button="Ya" cancel-button="Batal"
+                                                >
+                                                Log out
+                                            </x-splade-link>
                                         </li>
                                     </ul>
                                 </div>

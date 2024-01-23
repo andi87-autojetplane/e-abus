@@ -19,6 +19,7 @@
             </Link>
             <div class="pt-2 mt-3 mb-2 space-y-2 font-medium border-t border-gray-200 dark:border-gray-700">
                 <ul>
+
                     <li>
                         <x-dropdown
                             class="flex items-center w-full text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
@@ -46,9 +47,9 @@
                                         Role</Link>
                                     </li>
                                     <li>
-                                        <Link href="#"
+                                        <Link href="{{ route('admin.permissions.index') }}"
                                             class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-5 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                                        BP Umum</Link>
+                                        Permission</Link>
                                     </li>
                                     <li>
                                         <Link href="#"
@@ -91,6 +92,7 @@
 
                         </x-dropdown>
                     </li>
+
 
                     {{-- <li>
                         <Link href="#"
@@ -388,7 +390,10 @@
             <x-responsive-nav-link :href="route('profile.edit')">
                 {{ __('Profile') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link method="post"
+
+            <x-responsive-nav-link
+                confirm="Konfirmasi Logout" confirm-text="Anda yakin mau keluar dari aplikasi?" confirm-button="Ya" cancel-button="Batal"
+                method="post"
                 href="{{ route('logout') }}">{{ __('Log Out') }}</x-responsive-nav-link>
         </div>
     </div>
