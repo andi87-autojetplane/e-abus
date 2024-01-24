@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('pegawais', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('id_user')->
             $table->timestamps();
         });
     }

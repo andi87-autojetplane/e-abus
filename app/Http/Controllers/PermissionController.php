@@ -32,7 +32,7 @@ class PermissionController extends Controller
     public function store(CreatePermissionRequest $request)
     {
         $permission = Permission::create($request->validated());
-        $permission->syncRoles($request->roles);
+        $permission->syncRoles((int)$request->roles);
         Splade::toast('Permission created')->autoDismiss(3);
 
         return to_route('admin.permissions.index');
@@ -53,7 +53,7 @@ class PermissionController extends Controller
     public function update(UpdatePermissionRequest $request, Permission $permission)
     {
         $permission->update($request->validated());
-        $permission->syncRoles($request->roles);
+        $permission->syncRoles((int)$request->roles);
         Splade::toast('Permission updated')->autoDismiss(3);
 
         return to_route('admin.permissions.index');

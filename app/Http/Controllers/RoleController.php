@@ -29,7 +29,7 @@ class RoleController extends Controller
     public function store(CreateRoleRequest $request)
     {
         $role = Role::create($request->validated());
-        $role->syncPermissions($request->permissions);
+        $role->syncPermissions((int)$request->permissions);
         Splade::toast('Role created')->autoDismiss(3);
 
         return to_route('admin.roles.index');
@@ -51,7 +51,7 @@ class RoleController extends Controller
     public function update(UpdateRoleRequest $request, Role $role)
     {
         $role->update($request->validated());
-        $role->syncPermissions($request->permissions);
+        $role->syncPermissions((int)$request->permissions);
         Splade::toast('Role updated')->autoDismiss(3);
 
         return to_route('admin.roles.index');
