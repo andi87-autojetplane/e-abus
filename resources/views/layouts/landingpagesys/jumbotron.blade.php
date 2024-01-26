@@ -1,6 +1,6 @@
 
 
-<section class="bg-center bg-no-repeat bg-[url('https://i.imgur.com/zwBzWW4.jpg')] bg-gray-700 bg-blend-multiply">
+<section class="bg-center bg-cover bg-[url('https://i.imgur.com/3L13kAy.jpg')] bg-gray-700 bg-blend-multiply">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">Selamat Datang di UPT Puskesmas Sukamulya</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Melayani dengan sepenuh hati.</p>

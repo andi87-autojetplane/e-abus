@@ -40,7 +40,8 @@
         <div class="p-4 sm:ml-64">
             <div class="bg-white rounded-lg shadow dark:bg-gray-900 m-2 mb-0">
                 <div class="w-full max-w-screen-xl mx-auto p-2 md:py-4">
-                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link href="https://flowbite.com/" class="hover:underline">e-abus™</Link>. All Rights Reserved.</span>
+                    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024
+                        <Link href="https://flowbite.com/" class="hover:underline">e-abus™</Link>. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
