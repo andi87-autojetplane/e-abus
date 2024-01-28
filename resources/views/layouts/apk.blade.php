@@ -3,6 +3,12 @@
 
     @include('layouts.landingpagesys.jumbotron')
 
+    @include('layouts.landingpagesys.pimpinangrid')
+
+    @include('layouts.landingpagesys.maklumat')
+
+    @include('layouts.landingpagesys.visimisi')
+
     <!-- Page Heading -->
 
     <!-- Page Content -->

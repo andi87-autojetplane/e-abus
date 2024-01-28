@@ -53,10 +53,31 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <Link href="https://flowbite.com/" class="hover:underline">Flowbite</Link>
+                            <Link href="https://keluargasehat.kemkes.go.id/" class="hover:underline">PISK PK</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link href="https://siskohatkes.kemkes.go.id/" class="hover:underline">SISKOHATKES</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://dinkes.garutkab.go.id/" class="hover:underline">Dinkes Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://www.garutkab.go.id/" class="hover:underline">Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://diskominfo.garutkab.go.id/" class="hover:underline">Dikominfo Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://garutkab.bps.go.id/" class="hover:underline">BPS Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://lpse.lkpp.go.id/" class="hover:underline">LPSE</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://lpse.jabarprov.go.id" class="hover:underline">LPSE Jawa Barat</Link>
                         </li>
                         <li>
-                            <Link href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</Link>
+                            <Link away href="https://oss.go.id/" class="hover:underline">DPMPTSP</Link>
                         </li>
                     </ul>
                 </div>
@@ -64,10 +85,31 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <Link href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</Link>
+                            <Link href="https://keluargasehat.kemkes.go.id/" class="hover:underline">PISK PK</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link href="https://siskohatkes.kemkes.go.id/" class="hover:underline">SISKOHATKES</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://dinkes.garutkab.go.id/" class="hover:underline">Dinkes Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://www.garutkab.go.id/" class="hover:underline">Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://diskominfo.garutkab.go.id/" class="hover:underline">Dikominfo Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://garutkab.bps.go.id/" class="hover:underline">BPS Kab. Garut</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://lpse.lkpp.go.id/" class="hover:underline">LPSE</Link>
+                        </li>
+                        <li class="mb-4">
+                            <Link away href="https://lpse.jabarprov.go.id" class="hover:underline">LPSE Jawa Barat</Link>
                         </li>
                         <li>
-                            <Link href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</Link>
+                            <Link away href="https://oss.go.id/" class="hover:underline">DPMPTSP</Link>
                         </li>
                     </ul>
                 </div>
